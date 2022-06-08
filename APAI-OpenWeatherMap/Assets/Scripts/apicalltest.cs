@@ -17,7 +17,7 @@ public class apicalltest : MonoBehaviour
 
     public void callApi(InputField query)
     {
-        geoNamesURL = "http://api.geonames.org/geoCodeAddressJSON?q=Broadway&username=waltermelion";
+        geoNamesURL = "http://api.geonames.org/geoCodeAddressJSON?q=Broadway&username=syl3n7";
         Debug.Log(geoNamesURL);
         
         StartCoroutine(SendRequest(geoNamesURL));
