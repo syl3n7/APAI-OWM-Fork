@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -78.7988,
+        "lat": 38.6131
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 291.4,
+        "feels_like": 291.74,
+        "temp_min": 288.2,
+        "temp_max": 292.76,
+        "pressure": 1012,
+        "humidity": 94
+    },
+    "visibility": 8047,
+    "wind": {
+        "speed": 0.89,
+        "deg": 204,
+        "gust": 0.89
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1654680471,
+    "sys": {
+        "type": 2,
+        "id": 2000262,
+        "country": "US",
+        "sunrise": 1654681846,
+        "sunset": 1654735081
+    },
+    "timezone": -14400,
+    "id": 4749117,
+    "name": "Broadway",
+    "cod": 200
+}
