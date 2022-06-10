@@ -65,9 +65,9 @@ public class GeoToOWM : MonoBehaviour
             MinMax.text = "Minimum: " + owmroot.main.temp_min.ToString() + "°F  " + " Maximum: " + owmroot.main.temp_max.ToString() + "°F";
             Pressure.text = "Pressure: " + owmroot.main.pressure.ToString() + "hPa";
             Humidity.text = "Humidity: " + owmroot.main.humidity.ToString() + "%";
-            Winddsg.text = "Wind Speed: " + owmroot.wind.speed.ToString() + " mph, Direction: " + owmroot.wind.deg.ToString() + " degrees, Gust: " + owmroot.wind.gust.ToString() + " mph";
-            CloudinessVisibility.text = owmroot.clouds.all.ToString() + "%  " + owmroot.visibility.ToString() + " meters";
-            SunriseSunset.text = "Sunrise: " + ConvertUnixToDateTime(owmroot.sys.sunrise).ToString() + " UTC\n" + "Sunset: " + ConvertUnixToDateTime(owmroot.sys.sunset).ToString() + " UTC";
+            Winddsg.text = "Wind Speed: " + owmroot.wind.speed.ToString() + " mph\n\nDirection: " + owmroot.wind.deg.ToString() + " degrees\n\nGust: " + owmroot.wind.gust.ToString() + " mph";
+            CloudinessVisibility.text = "Cloudiness: " + owmroot.clouds.all.ToString() + "%  " + "Visibility: " + owmroot.visibility.ToString() + " meters";
+            SunriseSunset.text = "Sunrise: " + ConvertUnixToDateTime(owmroot.sys.sunrise).ToString() + " UTC\n\n" + "Sunset: " + ConvertUnixToDateTime(owmroot.sys.sunset).ToString() + " UTC";
         }
     }
 
