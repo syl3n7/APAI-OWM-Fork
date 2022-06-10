@@ -30,6 +30,7 @@ public class GeoToOWM : MonoBehaviour
     }
     public void callApi(InputField query)
     {
+        Error.text = "";
         string geoNamesURL = "http://api.geonames.org/geoCodeAddressJSON?q=" + query.text + "&username=" + geoNamesUser;
         StartCoroutine(GeoRequest(geoNamesURL));
     }
