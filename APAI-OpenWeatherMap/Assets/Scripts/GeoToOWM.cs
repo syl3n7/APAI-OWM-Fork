@@ -7,8 +7,8 @@ using UnityEngine.Networking;
 
 public class GeoToOWM : MonoBehaviour
 {
-    private string geoNamesUser = "syl3n7";
-    private string owmAPI = "eff7c51aa691219e52705263d0428f2b";
+    private string geoNamesUser = "example";
+    private string owmAPI = "OpenWeatherMapApiKey";
     private Root georoot;
     private Root2 owmroot;
     public Text Error;
